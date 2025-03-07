@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_gravity="end"
+        android:id="@+id/textTransactionDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Date"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textSize="16sp"
+        android:id="@+id/textSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Summary" />
+
+
+    <TextView
+        android:id="@+id/gst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="GST" />
+
+
+    <TextView
+        android:id="@+id/debit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Debit" />
+
+
+    <TextView
+        android:id="@+id/credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Credit" />
+
+</LinearLayout>
